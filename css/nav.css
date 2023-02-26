@@ -1,0 +1,46 @@
+/* Colours
+--------------------------------------------------------------------------------------------------------------- */
+body{ background-color:white;}
+a{color:black; text-decoration:underlines;}
+a:hover{color:gray;}
+hr{border-color:#D7D7D7;}
+.overlay{color:#FFFFFF; background-color:inherit;}
+.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+
+/* Rows */
+.row0{color:#B1D0E0; background-color:#B1D0E0;}
+.row1{color:#FFFFFF; background-color:#406882;}/*bar */
+.row2{color:#474747; background-color:#D7E2E8;}
+.row3{color:#474747; background-color:white;}
+.row5, .row5 a{color:#A5A6AA; background-color:#B1D0E0;}
+#m ,#m a{color:#A5A6AA; background-color:#406882;}
+
+/* Top Bar */
+#topbar #searchform{color:#f7a440;float: right;}
+#topbar #searchform:hover{}
+#topbar #searchform input{color:#FFFFFF; background:#f2bb7b;}
+#topbar #searchform button{color:#FFFFFF; background:transparent;}
+
+/* Navigation */
+#mainav li a,.topnav a{color:inherit; border-color:transparent;}
+#mainav .active a, #mainav a:hover, #mainav li:hover  a,.topnav a:hover{color:#FFFFFF; background-color:#375F79;}
+#mainav li li a, #mainav .active li a,.topnav a.active{color:#FFFFFF; background-color:red;/* #FF3F4A */ border-color:#f7a440;}
+#mainav li li:hover  a, #mainav .active .active  a{color:#FFFFFF; background-color:red; border-color:#f2bb7b;}
+
+/* Menu */
+.link a {background-color:#1A374D;}
+.services-inner-box {box-shadow : 0 7px 10px #F9E4C8;}
+.featured-food .food-item {background-color : #F9E4C8;}
+
+/* table */
+
+
+tbody th #cc{background-color:#FEF5ED;}
+
+.backST {background-image:url('../images/back21.jfif');}
+#backgroundPhoto .backST {background-image:url('img/daisy3.png');}
+#backgroundPhoto2 .backST {background-image:url('img/daisy3.png');}
+
+#table #tag th{background-color: #FEF5ED; height: 7px; width:5%;}
+
+#form1{ width:70%;}

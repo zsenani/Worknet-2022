@@ -1,0 +1,87 @@
+@import url("framework.css");
+.topnav .icon {
+  display: none;
+}
+
+.form1{width: 50%;}
+
+.form1 input {
+    display: block;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    transition: border-width 0.2s ease;
+    border-radius: 2px;
+    color: black;}
+    
+    .subbut{background-color:#406882;}
+/* Top Bar
+--------------------------------------------------------------------------------------------------------------- */
+#topbar{padding:7px 0; font-size:.8rem;}
+#topbar ul li{display:inline-block; }
+#title{font-size:800%;}
+
+
+/* Header
+--------------------------------------------------------------------------------------------------------------- */
+#header #logo img{height:100px; width:100px; margin:2px; padding:2px; }
+
+
+/* Navigation
+--------------------------------------------------------------------------------------------------------------- */
+nav ul, nav ol{margin:0; padding:0; list-style:none;}
+#mainav, #breadcrumb, .sidebar nav{line-height:normal;}
+#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"Font Awesome\ 5 Free"; font-weight:900; font-size:10px; line-height:10px;}
+
+
+.topnav{display:none; overflow: hidden;}
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Top Navigation */
+#mainav ul{text-transform:uppercase;}
+#mainav ul ul{position:absolute; width:180px; text-transform:none; z-index:9999;}
+#mainav li{display:block; position:relative; float:left;}
+#mainav li li{width:100%; margin:0;}
+#mainav li a{display:block; padding:40px 25px;}
+#mainav li li a{border:solid; border-width:0 0 1px 0;}
+#mainav .drop{padding-left:30px;}
+#mainav li li a, #mainav li li .drop{display:block; margin:0; padding:10px 15px;}
+#mainav .drop::after, #mainav li li .drop::after{content:"\f0d7";}
+#mainav .drop::after{top:45px; left:20px;}
+#mainav li li .drop::after{top:15px; left:5px;}
+#mainav ul ul{visibility:hidden; opacity:0;}
+#mainav ul li:hover > ul{visibility:visible; opacity:1;}
+#locationCon {font-family: fantasy,papyrus;font-size:2rem;}
+
+/* Footer
+--------------------------------------------------------------------------------------------------------------- */
+#footer{padding:20px 0;}
+/* Copyright
+--------------------------------------------------------------------------------------------------------------- */
+#copyright{padding:20px 0; text-align: center;}
+#copyright *{margin:0; padding:0;}
+
+/* Content Area
+--------------------------------------------------------------------------------------------------------------- */
+.container{padding:80px 0;}
+.paragraph{text-align:center; }
+#text{font-size:130%;}
+#text2{font-size:105%;}
+dd {text-align:center; margin-left:auto; margin-right:auto;}
+
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:1140px){
+	.hoc{max-width:1140px;}
+	.topnav{display:none; overflow: hidden;}
+}
+
+

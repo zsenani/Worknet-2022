@@ -1,0 +1,140 @@
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  font-size:1.2em;
+}
+.image2{
+margin-top:25%;
+margin-left:1%;
+margin-right:0%;
+}
+.logout{
+width:20%;
+padding-right:0px;
+margin-right:0%;
+margin-left:0%;
+margin-top:-5%;
+
+}.navv{
+float:right;
+	margin-right:-23%;
+}
+#AfterSubmit{
+	margin-top:10%;
+	text-align:center;
+	display:none;
+	margin-left:5%;
+}
+#sentM{
+	font-size:30px;
+	margin-right:5%;
+	
+}
+#image3{
+	
+	margin-bottom:10%;
+	width:20%;
+}
+
+#image2{
+	
+	
+	margin-bottom:10%;
+	width:13%;
+}
+.hh{
+	
+	margin-left:15%;
+	
+}
+.submit{
+	background-color:#406882;
+}
+#back{color:black;}
+button{
+	float:right;
+	width:7%;
+	
+	
+}
+#typeRQ{
+	width:50%;
+	padding:1%;
+	
+}
+
+#editForm1{
+	margin-left:30%;
+	
+	
+}
+#editForm
+{   
+	padding-left:29%;
+	visibility:hidden;
+	
+}
+.td1{
+	width:22%;
+	
+}
+.section-header{
+	
+	font-size:2em;
+}
+.container {
+	margin:0 20px;
+}
+.column {
+	margin-bottom:1em;
+}
+
+button {
+	line-height:1.4;			
+}
+
+ul,ol {
+	margin:0 0 1.5em 3em;
+}
+
+.tables h2{
+text-align: center;
+}
+
+button:hover {
+	opacity:0.6;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #222222;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+.cart-header {
+   
+    font-size: 1.50em;
+    color: #333;
+}
+
+.cart-column {
+    
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
